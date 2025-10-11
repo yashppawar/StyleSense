@@ -1005,4 +1005,5 @@ if st.session_state.predicted_body_shape:
                 st.markdown(f"Fabric: {product['fabric']}")
                 st.markdown(f"Occasions: {', '.join(product['occasion'])}")
                 
+
             col_index = (col_index + 1) % num_columns
